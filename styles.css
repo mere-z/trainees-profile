@@ -1,0 +1,50 @@
+.header {
+    background-color: rgb(75, 77, 117);
+    display: flex;
+    border: dotted 20px white;
+    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background: url(cherry_blossoms.jpg) no-repeat center center fixed;
+}
+
+.welcome {
+    flex: 1;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.welcometext {
+    font-size: 65px;
+    color: white;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: underline wavy white 5px;
+}
+
+#welcomelist {
+    border: 20px wavy lavender;
+    color: rgb(148, 139, 167);
+    font-style: oblique;
+    font-size: 30px;
+    list-style-image: url('cherry_list.jpg');
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.welcome,
+img {
+    max-height: 85%;
+}
+
+body {
+    background-color: lavender;
+}
+
+
+/* Intro section*/
+
+#butterfly {
+    max-width: 70%;
+    height: auto;
+}
