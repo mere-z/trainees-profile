@@ -42,9 +42,91 @@ body {
 }
 
 
-/* Intro section*/
+/* storytime section*/
 
-#butterfly {
-    max-width: 70%;
-    height: auto;
+.storytime {
+    background-color: black;
+    display: flex;
+    border: dashed 20px black;
+    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background: url(rain.gif) repeat center center fixed;
+}
+
+.storyItem {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline black 2px;
+}
+
+#textstory {
+    border: groove 3px black;
+    margin-top: 30px;
+}
+
+#smallstory {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.butterfly {
+    margin-top: 50px;
+    width: 70%
+}
+
+.cattos {
+    background-color: black;
+    display: flex;
+    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background: url(clouds.jpg);
+    gap: 30px;
+}
+
+.catItem {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cattos img {
+    margin-top: 50px;
+    height: 200px;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background: url(prettymoon.gif) repeat;
+    gap: 40px;
+}
+
+#hobbytext {
+    text-align: center;
+}
+
+.hobbysection {
+    justify-content: space-between;
+    justify-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sleeptext {
+    font-size: 20px;
+    color: pink;
+    text-align: center;
 }
